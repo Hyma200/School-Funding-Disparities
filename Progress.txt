@@ -1,0 +1,17 @@
+The goal of this project was to design an algorithm that proposes a better student
+funding formula for Virginia counties based on differences in minority count in each 
+county. So far, htmlunit was used to web scrape the enrollment numbers of Virginia
+public school students. The EthnicityRecorder class was created for this purpose. Then
+a pdf document of per student funding in each county was also webscraped using pdfbox and
+another class, pdfreader, was created for this purpose. The line finder class is an
+abstract class that searches for words and returns both the line numbers and text in 
+those lines. The class was used both in the pdfreader and EthnicityRecorder classes. The
+counties.java class is where information associated with each county is stored in. 
+The test and tester classes are where I tested my code out before placing them in their
+respective classes. Currently, I am working on the GUI class, where I plan on creating 
+pie charts of the ethnicities associated with each class and displaying a summary of 
+how much funding should be increased in each county. Before that, I plan to use my tester
+classes to compute further calculations on calculaitons of county funding. So far, I 
+gathered all the information necessary for my project by using various websites and 
+documents to web scrape. At this stage of my project, I am basically trying to process
+and display the informaiton I gathered.
